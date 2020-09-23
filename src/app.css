@@ -12,7 +12,7 @@
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    height:89.7vh;
+    height:100vh;
 }
 .heading {
     margin-top: 100px;
@@ -50,7 +50,13 @@ box-shadow: 2px 2px 5px solid rgb(206, 76, 76) !important;
     cursor:pointer;
 }
     
-
+.cardOver:hover{
+box-shadow: 2px 2px 5px #FF6666;
+scale:1.2;
+z-index: 999;
+transition: ease-in 0.2s;
+cursor: pointer;
+}
 
 
 

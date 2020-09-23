@@ -50,7 +50,7 @@ function Common() {
                 <Row className="iconBar">
                 <Col lg={2} md={2} sm={2} xs={2}></Col>
                 {
-                    links.map(item=><Col lg={2} md={2} sm={2} xs={2} className="icons">{item.name}</Col>)
+                    links.map(item=><Col lg={2} md={2} sm={2} xs={2} key={item.name} className="icons">{item.name}</Col>)
                 }
                 </Row>
                 <Row className="mt-5">
