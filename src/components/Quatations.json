@@ -1,0 +1,92 @@
+[
+    {
+        "index":1,
+        "service":"GST Registration(Proprietorship & Partnership)",
+        "rate":2000,
+        "duration":"SET"
+    },
+    {
+        "index":2,
+        "service":"GST Registration(Company & Others)",
+        "rate":2500,
+        "duration":"SET"
+    },
+    {
+        "index":3,
+        "service":"GST Updation ANd Cancellation(All)",
+        "rate":1500,
+        "duration":"SET"
+    },
+    {
+        "index":4,
+        "service":"All GST Services(Turnover Upto 1Cr)",
+        "rate":1500,
+        "duration":"Monthly"
+    },
+    {
+        "index":5,
+        "service":"All GST Services(Turnover Above 1Cr)",
+        "rate":2500,
+        "duration":"Monthly"
+    },
+    {
+        "index":6,
+        "service":"Consultatancy of INCOME TAX(Salaried)",
+        "rate":1000,
+        "duration":"SET"
+    },
+    {
+        "index":7,
+        "service":"Consultatancy of INCOME TAX(Individual)",
+        "rate":2000,
+        "duration":"SET"
+    },
+    {
+        "index":8,
+        "service":"Consultatancy of INCOME TAX(Other Than Individual)",
+        "rate":3500,
+        "duration":"SET"
+    },
+    {
+        "index":9,
+        "service":"Issue Form 16 & 16A Quarterly",
+        "rate":1000,
+        "duration":"SET"
+    },
+    {
+        "index":10,
+        "service":"E-Tax, TDS, TCS",
+        "rate":2500,
+        "duration":"Quarterly"
+    },
+    {
+        "index":11,
+        "service":"Accounting Finalization(Turnover Upto 1Cr)",
+        "rate":6000,
+        "duration":"Monthly"
+    },
+    {
+        "index":12,
+        "service":"Accounting Finalization(Turnover Above 1Cr)",
+        "rate":10000,
+        "duration":"Monthly"
+    },
+    {
+        "index":13,
+        "service":"Other Compilance Work and COnsultancy Service",
+        "rate":5000,
+        "duration":"SET"
+    },
+    {
+        "index":14,
+        "service":"Assessment of Tax related services",
+        "rate":20000,
+        "duration":"SET Onwards"
+    },
+    {
+        "index":15,
+        "service":"Statutory Audit of Accounts on Merchandise Basis For All Financial And Fund & Other",
+        "rate":2000,
+        "duration":"SET"
+    }
+]
