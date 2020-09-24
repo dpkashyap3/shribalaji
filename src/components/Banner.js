@@ -5,6 +5,7 @@ import About from "./About"
 import Services from "./Services"
 import Contact from "./ContactUs"
 import Gallery from "./Gallery"
+import Qutation from "./Quatations"
 import {Route,Switch} from "react-router-dom"
 
 function Banner() {
@@ -16,6 +17,7 @@ function Banner() {
            <Route exact path="/Services" component={Services}/>
            <Route exact path="/ContactUs" component={Contact}/>
            <Route exact path="/Gallery" component={Gallery}/>
+           <Route exact path="/Qutations" component={Qutation}/>
         </Switch>
         </Container>
     )

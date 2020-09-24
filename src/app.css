@@ -1,3 +1,11 @@
+body{
+    background:linear-gradient(60deg,rgba(89, 92, 94, 0.8), rgba(135, 135, 138, 0.8)), url("images/banner.png")!important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
 .logostyle{
     margin-top:-50px;
     position:absolute;
@@ -6,13 +14,6 @@
 .navtop{
     position:relative;
     height:100px
-}
-.banner{
-    background:linear-gradient(60deg,rgba(89, 92, 94, 0.8), rgba(135, 135, 138, 0.8)), url("images/banner.png")!important;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    height:100vh;
 }
 .heading {
     margin-top: 100px;

@@ -14,6 +14,7 @@ function Navigation() {
     <Nav className="ml-auto text-center bg-dark mt-5 rounded">
       <Nav.Link><Link className='link' to="/">Home</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/Services">Services</Link></Nav.Link>
+      <Nav.Link><Link className='link' to="/Qutations">Quatations</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/AboutUs">About Us</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/Gallery">Our Setup</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/ContactUs">Contact Us</Link></Nav.Link>
