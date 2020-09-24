@@ -2,6 +2,7 @@ import React from 'react'
 import {Container} from "react-bootstrap"
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import {BrowserRouter as Router} from "react-router-dom"
 
 
@@ -11,7 +12,9 @@ function App() {
   <Container fluid style={{paddingLeft:0,paddingRight:0}}>
     <Navbar/>
     <Banner/>
+    <Footer/>
   </Container>
+   
   </Router>
   )
 }

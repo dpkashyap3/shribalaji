@@ -57,7 +57,7 @@ background-color: #FF6666!important;
 scale:1.2;
 z-index: 999;
 color:black!important;
-transition: ease-in 0.2s;
+transition: ease-in-out 0.2s;
 cursor: pointer;
 }
 
