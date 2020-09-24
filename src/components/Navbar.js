@@ -8,14 +8,14 @@ function Navigation() {
 
 <Navbar bg="dark" variant="dark" expand="sm" className="navtop">
 <Container >
-  <Navbar.Brand href="#home"><Image className="logostyle" src={Logo} rounded /></Navbar.Brand>
+  <Navbar.Brand href="/"><Image className="logostyle" src={Logo} rounded /></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto text-center bg-dark mt-5 rounded">
       <Nav.Link><Link className='link' to="/">Home</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/Services">Services</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/AboutUs">About Us</Link></Nav.Link>
-      <Nav.Link href="#link">Gallery</Nav.Link>
+      <Nav.Link><Link className='link' to="/Gallery">Our Setup</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/ContactUs">Contact Us</Link></Nav.Link>
     </Nav>
   </Navbar.Collapse>

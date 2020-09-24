@@ -4,6 +4,7 @@ import Common from "./Common"
 import About from "./About"
 import Services from "./Services"
 import Contact from "./ContactUs"
+import Gallery from "./Gallery"
 import {Route,Switch} from "react-router-dom"
 
 function Banner() {
@@ -14,6 +15,7 @@ function Banner() {
            <Route exact path="/AboutUs" component={About}/>
            <Route exact path="/Services" component={Services}/>
            <Route exact path="/ContactUs" component={Contact}/>
+           <Route exact path="/Gallery" component={Gallery}/>
         </Switch>
         </Container>
     )

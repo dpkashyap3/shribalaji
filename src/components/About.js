@@ -4,6 +4,9 @@ import {motion} from "framer-motion"
 import vision from "../images/vison.png"
 import mission from "../images/mission.png"
 import objective from "../images/objective.png"
+import nitesh from "../images/nitesh.png"
+import nigam from "../images/nigam.png"
+
 
 const pageload={
     initial:{
@@ -35,6 +38,21 @@ const cardsData=[
     }
 ]
 
+
+const owners=[
+    {
+        name:"Nitesh Verma",
+        image:nitesh,
+        desc:"Nitesh Verma having 10+ years experience as a accountant"
+    },
+    {
+        name:"Nitesh Verma",
+        image:nigam,
+        desc:"Nitesh Verma having 10+ years experience as a accountant"
+    }
+]
+
+
 function About() {
 
     return (
@@ -58,6 +76,24 @@ function About() {
                         ))
                     }
                     </Row>
+                    <br/><br/><hr/>
+                    <Row>{
+                        owners.map(item=>(
+                        <Col lg={4} md={6} sm={12} xs={12} className="mt-5">
+                        <Card className="bg-light cardOver" style={{ width: '18rem',height:"320px"}}>
+                        <Image className="mx-auto mt-3" src={item.image} height="150px" width="150px"/>
+                        <Card.Body>
+                          <Card.Title className="text-center">{item.name}</Card.Title>
+                          <Card.Text>
+                          {item.desc}
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                        </Col>
+                        ))
+                    }
+                    </Row>
+
                 </Container>
               </motion.div>
             </Container>
