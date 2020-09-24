@@ -1,6 +1,9 @@
 import React from 'react'
-import {Container,Col,Row,Card} from "react-bootstrap"
+import {Container,Col,Row,Card,Image} from "react-bootstrap"
 import {motion} from "framer-motion"
+import vision from "../images/vison.png"
+import mission from "../images/mission.png"
+import objective from "../images/objective.png"
 
 const pageload={
     initial:{
@@ -19,18 +22,17 @@ const pageload={
 
 const cardsData=[
     {   title:"Our Vision",
-        body:" Our firm continuously strives to be the Premier Accounting and Consultancy firm that provides excellent service to our clients and an excellent quality of life for our associates."
+        body:" Our firm continuously strives to be the Premier Accounting and Consultancy firm that provides excellent service to our clients and an excellent quality of life for our associates.",
+        image:vision
     },
     {   title:"Our Mission",
-        body:"We will predominantly work with organisations in the charitable and voluntary sectors as partners to help them achieve their desired outcomes."
+        body:"We will predominantly work with organisations in the charitable and voluntary sectors as partners to help them achieve their desired outcomes.",
+        image:mission
     },
     {   title:"Our Objective",
-        body:"We are committed to creating and sustaining long-term relationships which drawn on our experience and expertise to help our clients achieve real success"
-    },
-    {   title:"Excellence in Service",
-        body:"To not just meet but exceed client expectation consistently by imbibing Teamwork, Professionalism, Personalised Service & Specialisation."
-        
-    },
+        body:"We are committed to creating and sustaining long-term relationships which drawn on our experience and expertise to help our clients achieve real success",
+        image:objective
+    }
 ]
 
 function About() {
@@ -42,8 +44,9 @@ function About() {
                 <Container>
                     <Row>{
                         cardsData.map(item=>(
-                        <Col lg={4} md={6} sm={12} xs={12} className="mt-5 pt-5">
-                        <Card className="bg-dark text-white cardOver" style={{ width: '18rem' }}>
+                        <Col lg={4} md={6} sm={12} xs={12} className="mt-5">
+                        <Card className="bg-light cardOver" style={{ width: '18rem',height:"320px"}}>
+                        <Image className="mx-auto" src={item.image} height="100px" width="100px"/>
                         <Card.Body>
                           <Card.Title className="text-center">{item.title}</Card.Title>
                           <Card.Text>

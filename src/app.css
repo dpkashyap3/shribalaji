@@ -51,14 +51,33 @@ box-shadow: 2px 2px 5px solid rgb(206, 76, 76) !important;
 }
     
 .cardOver:hover{
-box-shadow: 2px 2px 5px #FF6666;
+box-shadow: 2px 2px 5px #201515;
+background-color: #FF6666!important;
 scale:1.2;
 z-index: 999;
+color:black!important;
 transition: ease-in 0.2s;
 cursor: pointer;
 }
 
+.contacticons{
+    color:#FF6666;
+}
 
+.contacticons:hover{
+    color:#FF9999;
+}
+
+.link{
+    color:white!important;
+    font-weight: 700;
+}
+.link:hover{
+    color:#FF6666!important;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #FF9999;
+
+}
 
 
 @media (max-width:780px)
