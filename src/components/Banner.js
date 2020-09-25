@@ -13,11 +13,11 @@ function Banner() {
         <Container fluid className="banner">
         <Switch>
            <Route exact path="/" component={Common}/>
-           <Route exact path="/AboutUs" component={About}/>
-           <Route exact path="/Services" component={Services}/>
-           <Route exact path="/ContactUs" component={Contact}/>
-           <Route exact path="/Gallery" component={Gallery}/>
-           <Route exact path="/Qutations" component={Qutation}/>
+           <Route exact path="/aboutus" component={About}/>
+           <Route exact path="/services" component={Services}/>
+           <Route exact path="/contactus" component={Contact}/>
+           <Route exact path="/gallery" component={Gallery}/>
+           <Route exact path="/qutations" component={Qutation}/>
         </Switch>
         </Container>
     )
