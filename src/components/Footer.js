@@ -5,7 +5,7 @@ import Logo from "../images/logo.png"
 
 function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="mt-5">
+        <Navbar bg="dark" variant="dark" expand="lg" className="mt-5 position-sticky">
             <Container>
                 <Row>
                     <Col lg={4} md={4} sm={6}>
