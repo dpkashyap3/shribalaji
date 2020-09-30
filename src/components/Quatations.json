@@ -88,5 +88,77 @@
         "service":"Statutory Audit of Accounts on Merchandise Basis For All Financial And Fund & Other",
         "rate":2000,
         "duration":"SET"
+    },
+    {
+        "index":16,
+        "service":"IEC Code",
+        "rate":3500,
+        "duration":"SET"
+    },
+    {
+        "index":17,
+        "service":"Trade Mark Registration",
+        "rate":4500,
+        "duration":"SET"
+    },
+    {
+        "index":18,
+        "service":"MSME",
+        "rate":2500,
+        "duration":"SET"
+    },
+    {
+        "index":19,
+        "service":"Startup Registration",
+        "rate":4500,
+        "duration":"SET"
+    },
+    {
+        "index":20,
+        "service":"FSSAI Registration",
+        "rate":5000,
+        "duration":"SET"
+    },
+    {
+        "index":21,
+        "service":"ESI/EPF Regisration",
+        "rate":4500,
+        "duration":"SET"
+    },
+    {
+        "index":22,
+        "service":"AEPC",
+        "rate":3500,
+        "duration":"SET"
+    },
+    {
+        "index":23,
+        "service":"EPF Claim",
+        "rate":1000,
+        "duration":"SET"
+    },
+    {
+        "index":24,
+        "service":"FC-GPR (Reporting of FDI in Shares",
+        "rate":15000,
+        "duration":"SET"
+    },
+    {
+        "index":25,
+        "service":"FC-TRS (Reporting For Transfer Shares)",
+        "rate":15000,
+        "duration":"SET"
+    },
+    {
+        "index":26,
+        "service":"ODI Form",
+        "rate":2500,
+        "duration":"SET"
+    },
+    {
+        "index":27,
+        "service":"FLA Return",
+        "rate":4500,
+        "duration":"SET"
     }
 ]
