@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {Container,Image,Col,Row,Button} from "react-bootstrap"
 import info from "../images/info.png"
 import {motion} from "framer-motion"
-import {FaFacebook,FaInstagram,FaTwitter,FaLinkedin,FaGoogle} from "react-icons/fa"
+import {FaFacebook,FaTwitter,FaLinkedin,FaGoogle} from "react-icons/fa"
 import ReadModal from "./ReadModal"
 
 const pageload={
@@ -21,11 +21,10 @@ const pageload={
 
 const links=[
     
-        {name:<FaFacebook/>},
-        {name:<FaInstagram/>},
-        {name:<FaGoogle/>},
-        {name:<FaTwitter/>},
-        {name:<FaLinkedin/>},
+    {name:<FaFacebook/>,url:"https://www.facebook.com/Shri-Balaji-Associates-102630951607841"},
+    {name:<FaGoogle/>,url:"https://www.shribalajiassociates.online"},
+    {name:<FaTwitter/>,url:"https://www.twitter.com/ShriBalajiAsso3"},
+    {name:<FaLinkedin/>,url:"https://www.linkedin.com/in/nitesh-verma-36b43a1b8"},
     
 ]
 
@@ -50,7 +49,7 @@ function Common() {
                 <Row className="iconBar">
                 <Col lg={2} md={2} sm={2} xs={2}></Col>
                 {
-                    links.map(item=><Col lg={2} md={2} sm={2} xs={2} key={item.name} className="icons">{item.name}</Col>)
+                    links.map(item=><Col lg={2} md={2} sm={2} xs={2} key={item.name} className="icons"><a className="icons" href={item.url}>{item.name}</a></Col>)
                 }
                 </Row>
                 <Row className="mt-5">

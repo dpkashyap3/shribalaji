@@ -43,12 +43,12 @@ const owners=[
     {
         name:"Nitesh Verma",
         image:nitesh,
-        desc:"Nitesh Verma having 10+ years experience of accountancy. He has been handled too many firms since last 10 years and all are the happy clients. He is very prominent and serious about his work and handling his team very politely and smartly."
+        desc:"Nitesh Verma is qualified accountant with ten years qualified experience gained within the various industries. He has been handled too many firms since last 10 years and all are the happy clients. He is very prominent and serious about his work and handling his team very politely and smartly."
     },
     {
-        name:"Braj Mohan Nigam",
+        name:"Brij Mohan Nigam",
         image:nigam,
-        desc:"Braj Mohan Nigan having 28+ years experience of accountancy. Since the manual book-keeping and now the technical era he doing his work as the time want. He changed his way of working in passege of time just because the setisfaction of his clients."
+        desc:"Brij Mohan Nigam is an well experienced and smart accountant with 28 years of experience. Since the manual book-keeping and now the technical era he doing his work as the time want. He changed his way of working in passege of time just because the setisfaction of his clients."
     }
 ]
 
@@ -62,7 +62,7 @@ function About() {
                 <Container>
                     <Row>{
                         cardsData.map(item=>(
-                        <Col lg={4} md={6} sm={12} xs={12} className="mt-5">
+                        <Col key={item.name} lg={4} md={6} sm={12} xs={12} className="mt-5">
                         <Card className="bg-light cardOver" style={{ width: '18rem',height:"320px"}}>
                         <Image className="mx-auto" src={item.image} height="100px" width="100px"/>
                         <Card.Body>
@@ -79,7 +79,7 @@ function About() {
                     <br/><br/><hr/>
                     <Row>{
                         owners.map(item=>(
-                        <Col lg={4} md={6} sm={12} xs={12} className="mt-5">
+                        <Col key={item.name} lg={4} md={6} sm={12} xs={12} className="mt-5">
                         <Card className="bg-light cardOver" style={{ width: '18rem',height:"100%"}}>
                         <Image className="mx-auto mt-3" src={item.image} height="150px" width="150px"/>
                         <Card.Body>

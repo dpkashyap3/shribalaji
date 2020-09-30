@@ -15,6 +15,8 @@ function Navigation() {
       <Nav.Link><Link className='link' to="/">Home</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/services">Services</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/qutations">Quatations</Link></Nav.Link>
+      <Nav.Link><Link className='link' to="/loan">Loan & Insurance</Link></Nav.Link>
+      <Nav.Link><Link className='link' to="/ngo">NGO</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/aboutus">About Us</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/gallery">Our Setup</Link></Nav.Link>
       <Nav.Link><Link className='link' to="/contactus">Contact Us</Link></Nav.Link>

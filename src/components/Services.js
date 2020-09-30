@@ -57,7 +57,7 @@ function About() {
                 <Container>
                     <Row>{
                         cardsData.map(item=>(
-                        <Col lg={4} md={6} sm={12} xs={12} key={item.name} className="mt-2">
+                        <Col key={item.title} lg={4} md={6} sm={12} xs={12} key={item.name} className="mt-2">
                         <Card className="bg-dark text-white cardOver" style={{ width: '18rem',height:"250px" }}>
                         <Card.Body>
                           <Card.Title className="text-center">{item.title}</Card.Title>

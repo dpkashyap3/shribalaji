@@ -32,9 +32,9 @@ box-shadow: 2px 2px 5px solid rgb(206, 76, 76) !important;
 }
 
 .btnreadme:hover{
-    background-color:#FF9999;
+    background-color:#ff0a0a;
     color:white;
-    border:1px solid #FF6666; 
+    border:1px solid #201515; 
 }
 .iconBar
 {
@@ -45,10 +45,13 @@ box-shadow: 2px 2px 5px solid rgb(206, 76, 76) !important;
     margin-top: 100px;
     font-size: clamp(24px,5vw,48px);
     color:white;
+    position:relative;
 }
 .icons:hover{
     color:#FF6666;
     cursor:pointer;
+    top:10px;
+    
 }
     
 .cardOver:hover{
