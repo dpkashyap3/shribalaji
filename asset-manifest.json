@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/shribalaji/static/css/main.1dc54cfa.chunk.css",
-    "main.js": "/shribalaji/static/js/main.fc3ee30b.chunk.js",
-    "main.js.map": "/shribalaji/static/js/main.fc3ee30b.chunk.js.map",
+    "main.css": "/shribalaji/static/css/main.47b3cdf7.chunk.css",
+    "main.js": "/shribalaji/static/js/main.38b83f2e.chunk.js",
+    "main.js.map": "/shribalaji/static/js/main.38b83f2e.chunk.js.map",
     "runtime-main.js": "/shribalaji/static/js/runtime-main.2017c705.js",
     "runtime-main.js.map": "/shribalaji/static/js/runtime-main.2017c705.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/shribalaji/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.34767879.chunk.js": "/shribalaji/static/js/2.34767879.chunk.js",
-    "static/js/2.34767879.chunk.js.map": "/shribalaji/static/js/2.34767879.chunk.js.map",
+    "static/js/2.6f681901.chunk.js": "/shribalaji/static/js/2.6f681901.chunk.js",
+    "static/js/2.6f681901.chunk.js.map": "/shribalaji/static/js/2.6f681901.chunk.js.map",
     "index.html": "/shribalaji/index.html",
-    "precache-manifest.2fc2f3540b73a12d9f8e2e3c2af7acfa.js": "/shribalaji/precache-manifest.2fc2f3540b73a12d9f8e2e3c2af7acfa.js",
+    "precache-manifest.e9b1fc0f1ae9d3d5d8a69bafd0925aa8.js": "/shribalaji/precache-manifest.e9b1fc0f1ae9d3d5d8a69bafd0925aa8.js",
     "service-worker.js": "/shribalaji/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/shribalaji/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.1dc54cfa.chunk.css.map": "/shribalaji/static/css/main.1dc54cfa.chunk.css.map",
-    "static/js/2.34767879.chunk.js.LICENSE.txt": "/shribalaji/static/js/2.34767879.chunk.js.LICENSE.txt",
+    "static/css/main.47b3cdf7.chunk.css.map": "/shribalaji/static/css/main.47b3cdf7.chunk.css.map",
+    "static/js/2.6f681901.chunk.js.LICENSE.txt": "/shribalaji/static/js/2.6f681901.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/shribalaji/static/media/1.6ceeceb7.jpg",
     "static/media/2.jpg": "/shribalaji/static/media/2.cce07a12.jpg",
     "static/media/3.jpg": "/shribalaji/static/media/3.d3a5c96d.jpg",
-    "static/media/4.jpg": "/shribalaji/static/media/4.2424cbeb.jpg",
+    "static/media/4.jpg": "/shribalaji/static/media/4.5567833f.jpg",
+    "static/media/5.jpg": "/shribalaji/static/media/5.89f14396.jpg",
+    "static/media/6.jpg": "/shribalaji/static/media/6.25958bb6.jpg",
+    "static/media/QR.jpg": "/shribalaji/static/media/QR.df375816.jpg",
     "static/media/app.css": "/shribalaji/static/media/banner.f3f8d47d.png",
     "static/media/info.png": "/shribalaji/static/media/info.9ba872bf.png",
     "static/media/logo.png": "/shribalaji/static/media/logo.f8199f1c.png",
@@ -27,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.2017c705.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.34767879.chunk.js",
-    "static/css/main.1dc54cfa.chunk.css",
-    "static/js/main.fc3ee30b.chunk.js"
+    "static/js/2.6f681901.chunk.js",
+    "static/css/main.47b3cdf7.chunk.css",
+    "static/js/main.38b83f2e.chunk.js"
   ]
 }
