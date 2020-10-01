@@ -5,7 +5,7 @@ import Logo from "../images/logo.png"
 
 function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" className="mt-5 d-flex flex-column" style={{minHeight:"100vh"}}>
+        <Navbar bg="dark" variant="dark" expand="lg" className="mt-5 d-flex flex-column" style={{minHeight:"50vh"}}>
             <Container className="flex-fill">
                 <Row>
                     <Col lg={4} md={4} sm={6}>

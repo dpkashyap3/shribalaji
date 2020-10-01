@@ -8,6 +8,7 @@ import Gallery from "./Gallery"
 import Qutation from "./Quatations"
 import NGO from "./NGO"
 import Loan from "./Loan"
+import Insurance from "./Insurance"
 import {Route,Switch} from "react-router-dom"
 
 function Banner() {
@@ -19,6 +20,7 @@ function Banner() {
            <Route exact path="/services" component={Services}/>
            <Route exact path="/contactus" component={Contact}/>
            <Route exact path="/loan" component={Loan}/>
+           <Route exact path="/insurance" component={Insurance}/>
            <Route exact path="/ngo" component={NGO}/>
            <Route exact path="/gallery" component={Gallery}/>
            <Route exact path="/qutations" component={Qutation}/>

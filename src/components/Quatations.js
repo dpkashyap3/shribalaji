@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Container,Table,Row,Form,Col,Button} from "react-bootstrap"
+import {Container,Table,Row,Form,Col} from "react-bootstrap"
 import {motion} from "framer-motion"
 import Data from "./Quatations.json"
 
@@ -27,18 +27,19 @@ function Quatations() {
   const [data, setdata] = useState(setup)
 
   const searchdata=(e)=>{
-      e.preventDefault();
+      setsearch(e.target.value)
       setdata(Data.filter(item=>{
-        if(search==null){
+        if(search==null || search===""){
           return item
         }
         else if(item.service.toLowerCase().includes(search.toLowerCase())){
             return item
-      }  
-  }
+      } 
+ 
+    }
       ))
+      
 }
-
 
 
     return (
@@ -48,12 +49,11 @@ function Quatations() {
                 <Container>
 
                 <Row>
-                  <Form className="text-white form-inline mb-3">
+                  <Form className="text-white form-inline mb-3 text-center">
                   <Form.Row>
                   <Form.Group as={Col} controlId="formGridEmail" >
                     <Form.Label >Enter Text To Search </Form.Label>
-                    <Form.Control className="ml-3" type="text" placeholder="Enter Keyword To Search" name="search" onChange={(e)=>setsearch(e.target.value)}/>
-                    <Button className="btnreadme ml-3" type="submit" onClick={(e)=>searchdata(e)}>Search</Button>
+                    <Form.Control className="ml-3 w-auto" type="text" placeholder="Enter Keyword To Search" onChange={(e)=>searchdata(e)}/>
                   </Form.Group>
                   </Form.Row>
                   </Form>
